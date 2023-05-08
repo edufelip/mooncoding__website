@@ -4,7 +4,7 @@ import Paragraph from './components/ui/Paragraph'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home (): JSX.Element {
   return (
     <main className='bg-red-500'>
       <Paragraph />
