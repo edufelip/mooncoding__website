@@ -1,13 +1,9 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import Paragraph from './components/ui/Paragraph'
-
-const inter = Inter({ subsets: ['latin'] })
+import Paragraph from '@/components/ui/Paragraph'
 
 export default function Home (): JSX.Element {
   return (
     <main className='bg-red-500'>
-      <Paragraph />
+      <Paragraph >Some text</Paragraph>
     </main>
   )
 }
