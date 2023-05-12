@@ -4,6 +4,7 @@ import { type FC } from 'react'
 import { buttonVariants } from '@/ui/Button'
 import SignInButton from '@/components/SignInButton'
 import SignOutButton from '@/components/SignOutButton'
+import ThemeToggle from '@/components/ThemeToggle'
 
 /* @ts-expect-error Server Component */
 const Navbar: FC = async () => {
@@ -14,10 +15,10 @@ const Navbar: FC = async () => {
         Moon Coding
       </Link>
       <div className='md:hidden'>
-        {/* <ThemeToggle /> */}
+        <ThemeToggle />
       </div>
       <div className='hidden md:flex gap-4'>
-        {/* <ThemeToggle /> */}
+        <ThemeToggle />
           <Link href='/documentation' className={buttonVariants({ variant: 'ghost' })}>
             Documentation
           </Link>
