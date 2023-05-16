@@ -1,4 +1,4 @@
-import { ChevronLeft, ChevronRight, Laptop, type LucideIcon, Moon, Sun } from 'lucide-react'
+import { ChevronLeft, ChevronRight, InstagramIcon, Youtube, Laptop, type LucideIcon, Moon, Sun } from 'lucide-react'
 
 type IconsType = Record<string, LucideIcon>
 
@@ -7,7 +7,9 @@ export const Icons: IconsType = {
   ChevronRight,
   Sun,
   Moon,
-  Laptop
+  Laptop,
+  InstagramIcon,
+  Youtube
 }
 
 export default Icons

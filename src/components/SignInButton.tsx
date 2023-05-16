@@ -24,7 +24,7 @@ const SignInButton: FC = () => {
   }
 
   const clickEvent = handleErrors(async () => {
-    await signIn()
+    await signInWithGoogle()
   })
 
   return <Button onClick={clickEvent} isLoading={isLoading}>

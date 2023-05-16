@@ -19,21 +19,17 @@ const Navbar: FC = async () => {
       </div>
       <div className='hidden md:flex gap-4'>
         <ThemeToggle />
-          <Link href='/documentation' className={buttonVariants({ variant: 'ghost' })}>
-            Documentation
-          </Link>
-
-          {(session != null)
-            ? (
-            <>
-              <Link className={buttonVariants({ variant: 'ghost' })} href='/dashboard'>
-                Dashboard
-              </Link>
-              <SignOutButton />
-            </>)
-            : (
-              <SignInButton />
-              )}
+        {(session != null)
+          ? (
+          <>
+            <Link className={buttonVariants({ variant: 'ghost' })} href='/dashboard'>
+              Dashboard
+            </Link>
+            <SignOutButton />
+          </>)
+          : (
+            <SignInButton />
+            )}
       </div>
     </div>
   </div>

@@ -29,6 +29,7 @@
     "class-variance-authority": "^0.5.1",
     "clsx": "^1.2.1",
     "date-fns": "^2.29.3",
+    "firebase": "^9.22.0",
     "framer-motion": "^10.11.2",
     "lodash": "^4.17.21",
     "lucide-react": "^0.138.0",
@@ -51,6 +52,7 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
+    "@firebase/analytics": "^0.10.0",
     "@tailwindcss/typography": "^0.5.9",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "eslint": "^8.0.1",
